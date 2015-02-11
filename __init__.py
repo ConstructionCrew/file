@@ -28,6 +28,7 @@ def execute(src, dest, engine=None, context=None, **kwargs):
     put(IOstring, dest)
 
 
+# Implementations of various simple formatting engines
 def raw(src, context):
     """Render the contents of `src` exactly as wrtten on disk
     Inputs:
